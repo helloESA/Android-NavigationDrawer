@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notebloc Replica rev1</string>
+    <string name="sunting_bagikan">Sunting/Bagikan</string>
+    <string name="cari">Cari</string>
+    <string name="tampilan">Tampilan</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="toko_notebloc">Toko Notebloc</string>
+    <string name="saya_suka_aplikasi_ini">Saya suka aplikasi ini!</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="versi_pro">Versi Pro</string>
+    <string name="kontak">Kontak</string>
+    <string name="tentang_notebloc">Tentang Notebloc</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="halaman_pengaturan">Halaman Pengaturan</string>
+    <string name="halaman_backup_restore">Halaman Backup/Restore</string>
+</resources>

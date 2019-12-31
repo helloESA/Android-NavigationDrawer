@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_atas">
+
+        <item android:id="@+id/menuPengatutan"
+            android:title="@string/pengaturan"/>
+
+        <item android:id="@+id/menuBackupRestore"
+            android:title="CadangkanPulihkan"/>
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_bawah">
+
+        <item android:id="@+id/menuToko"
+            android:title="@string/toko_notebloc"/>
+
+        <item android:id="@+id/menuRate"
+            android:title="@string/saya_suka_aplikasi_ini"/>
+
+        <item android:id="@+id/menuCara"
+            android:title="@string/tutorial"/>
+
+        <item android:id="@+id/menuPro"
+            android:title="@string/versi_pro"/>
+
+        <item android:id="@+id/menuKontak"
+            android:title="@string/kontak"/>
+
+        <item android:id="@+id/menuTentang"
+            android:title="@string/tentang_notebloc"/>
+    </group>
+</menu>
