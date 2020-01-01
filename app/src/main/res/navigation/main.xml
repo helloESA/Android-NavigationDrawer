@@ -3,10 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    app:startDestination="@id/menuPengaturan">
+    app:startDestination="@id/list_DokumenFragment">
+
     <fragment
         android:id="@+id/menuPengaturan"
         android:name="com.meproduction.noteblocreplicarev1.fr_pengaturan"
         android:label="Pengaturan"
         tools:layout="@layout/fragment_fr_pengaturan" />
+    <fragment
+        android:id="@+id/menuBackupRestore"
+        android:name="com.meproduction.noteblocreplicarev1.backuprestoreFragment"
+        android:label="Cadangkan/Pulihkan"
+        tools:layout="@layout/fragment_backuprestore" />
+    <fragment
+        android:id="@+id/menuRate"
+        android:name="com.meproduction.noteblocreplicarev1.RateFragment"
+        android:label="Berikan Suka"
+        tools:layout="@layout/fragment_rate" />
+    <fragment
+        android:id="@+id/menuCara"
+        android:name="com.meproduction.noteblocreplicarev1.tutorialFragment"
+        android:label="Tutorial"
+        tools:layout="@layout/fragment_tutorial" />
+    <fragment
+        android:id="@+id/menuPro"
+        android:name="com.meproduction.noteblocreplicarev1.Pro_versionFragment"
+        android:label="Beralih ke Pro"
+        tools:layout="@layout/fragment_pro_version" />
+    <fragment
+        android:id="@+id/menuKontak"
+        android:name="com.meproduction.noteblocreplicarev1.ContactFragment"
+        android:label="Kontak"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/menuTentang"
+        android:name="com.meproduction.noteblocreplicarev1.AboutFragment"
+        android:label="Tentang Notebloc"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/list_DokumenFragment"
+        android:name="com.meproduction.noteblocreplicarev1.list_DokumenFragment"
+        android:label="Dokumen Saya"
+        tools:layout="@layout/fragment_list__dokumen" />
 </navigation>

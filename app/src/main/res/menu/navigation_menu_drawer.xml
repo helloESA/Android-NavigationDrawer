@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="none"
         android:id="@+id/menu_atas">
 
         <item android:id="@+id/menuPengatutan"
-            android:title="@string/pengaturan"/>
+            android:title="@string/pengaturan"
+            app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/menuBackupRestore"
-            android:title="CadangkanPulihkan"/>
+            android:title="CadangkanPulihkan"
+            app:showAsAction="ifRoom"/>
     </group>
 
     <group android:checkableBehavior="none"
-        android:id="@+id/menu_bawah">
+        android:id="@+id/menu_bawah"
+        app:showAsAction="ifRoom">
 
         <item android:id="@+id/menuToko"
-            android:title="@string/toko_notebloc"/>
+            android:title="@string/toko_notebloc"
+            app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/menuRate"
-            android:title="@string/saya_suka_aplikasi_ini"/>
+            android:title="@string/saya_suka_aplikasi_ini"
+            app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/menuCara"
-            android:title="@string/tutorial"/>
+            android:title="@string/tutorial"
+            app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/menuPro"
-            android:title="@string/versi_pro"/>
+            android:title="@string/versi_pro"
+            app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/menuKontak"
-            android:title="@string/kontak"/>
+            android:title="@string/kontak"
+            app:showAsAction="ifRoom"/>
 
         <item android:id="@+id/menuTentang"
-            android:title="@string/tentang_notebloc"/>
+            android:title="@string/tentang_notebloc"
+            app:showAsAction="ifRoom"/>
     </group>
 </menu>

@@ -9,10 +9,29 @@ import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
+    String[] menuItem = {"Dokumen Tugas",
+            "Dokumen Latihan",
+            "Dokumen 10"};
+    String[] menuCreate = {"Dibuat : 2019-11-11. 16:20",
+            "Dibuat : 2019-12-11. 15:10",
+            "Dibuat : 2019-12-20. 16:00"};
+    String[] menuPage = {"10 Halaman, 2,3 MB",
+            "5 Halaman, 1,8 MB",
+            "1 Halaman, 500 kB"};
+    Integer[] menuImage ={
+            R.drawable.ic_image_black_24dp,
+            R.drawable.ic_image_black_24dp,
+            R.drawable.ic_image_black_24dp,};
+
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

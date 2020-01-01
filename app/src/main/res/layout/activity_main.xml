@@ -52,6 +52,8 @@
             app:defaultNavHost="true"
             app:navGraph="@navigation/main"/>
 
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -61,10 +63,4 @@
         app:headerLayout="@layout/layout_navigation_header"
         app:menu="@menu/navigation_menu_drawer"
         android:layout_gravity="start" />
-
-    <include
-        android:id="@+id/bottom_appbar"
-        layout="@layout/app_bar_bottom"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
 </androidx.drawerlayout.widget.DrawerLayout>
